@@ -1,0 +1,198 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30711.63
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 Layers", "1 Layers", "{CC95540C-F9BD-41EE-B11C-9C7260EE9A4D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.1 UI", "1.1 UI", "{906B822E-F701-4F82-B262-17EFD5DAC229}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.3 Domain", "1.3 Domain", "{A71D4011-26DB-4FCB-B5A0-81EE179284E3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.4 Infrastructure", "1.4 Infrastructure", "{4865E05C-1EF8-4021-8D5F-35098CE2620A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.5 Crosscutting", "1.5 Crosscutting", "{E0FC764B-E193-413E-973A-9FE5FD057BF9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.2 Application", "1.2 Application", "{B3A8302A-1642-4E16-8B79-90B4232F6E23}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ParkEFI.Domain.Entities", "ParkEFI.Domain.Entities\ParkEFI.Domain.Entities.csproj", "{4D71D5E4-AD55-49E0-B453-3E7C65EDC0F9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ParkEFI.Domain.Contracts", "ParkEFI.Domain.Contracts\ParkEFI.Domain.Contracts.csproj", "{D9CB8E4D-82F4-42B7-971C-61CE8BDFC338}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ParkEFI.Application.Services", "ParkEFI.Application.Services\ParkEFI.Application.Services.csproj", "{8FEED95B-3D43-458A-87A1-180E72F5506E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ParkEFI.Application.Contracts", "ParkEFI.Application.Contracts\ParkEFI.Application.Contracts.csproj", "{FCF87696-E440-4E0C-B3A2-6C5B1266ED89}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ParkEFI.Crosscutting.Identity", "ParkEFI.Crosscutting.Identity\ParkEFI.Crosscutting.Identity.csproj", "{252F7EE9-2FEE-4352-A92F-4F0667A97702}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ParkEFI.Domain.Services", "ParkEFI.Domain.Services\ParkEFI.Domain.Services.csproj", "{6B4DAAF6-B868-4337-B369-FAE3D4690F49}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ParkEFI.Infrastructure", "ParkEFI.Infrastructure\ParkEFI.Infrastructure.csproj", "{6D0FBCBE-3CE2-419E-9F32-0D7423A77681}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ParkEFI.Infrastructure.Repositories", "ParkEFI.Infrastructure.Repositories\ParkEFI.Infrastructure.Repositories.csproj", "{47C23A57-8F5E-4867-AAA3-F9AA0BA95306}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ParkEFI.Crosscutting.Utils", "ParkEFI.Crosscutting.Utils\ParkEFI.Crosscutting.Utils.csproj", "{FF34F076-F95C-4B42-8E85-D5ACB57CD4F5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ParkEFI.Application.Ioc", "ParkEFI.Application.Ioc\ParkEFI.Application.Ioc.csproj", "{407FB05E-BE6A-4ACE-AAB9-C406E925AAC1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ParkEFI.Infrastructure.Ioc", "ParkEFI.Infrastructure.Ioc\ParkEFI.Infrastructure.Ioc.csproj", "{3F7EF9E0-2A3B-4C2E-A901-CBB2B83F6F82}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ParkEFI.UI.RESTful", "ParkEFI.UI.RESTful\ParkEFI.UI.RESTful.csproj", "{080909D8-76EC-4BEE-9876-1BD81EAB0876}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ParkEFI.Application.Adapters", "ParkEFI.Application.Adapters\ParkEFI.Application.Adapters.csproj", "{B86CA9B0-E01B-4FD3-A6AB-4350FE1BFC37}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ParkEFI.Crosscutting.Resources", "ParkEFI.Crosscutting.Resources\ParkEFI.Crosscutting.Resources.csproj", "{04126B15-952E-4F90-9DB6-DC38AB7B44F3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4D71D5E4-AD55-49E0-B453-3E7C65EDC0F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D71D5E4-AD55-49E0-B453-3E7C65EDC0F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D71D5E4-AD55-49E0-B453-3E7C65EDC0F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D71D5E4-AD55-49E0-B453-3E7C65EDC0F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9CB8E4D-82F4-42B7-971C-61CE8BDFC338}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9CB8E4D-82F4-42B7-971C-61CE8BDFC338}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9CB8E4D-82F4-42B7-971C-61CE8BDFC338}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9CB8E4D-82F4-42B7-971C-61CE8BDFC338}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FEED95B-3D43-458A-87A1-180E72F5506E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FEED95B-3D43-458A-87A1-180E72F5506E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FEED95B-3D43-458A-87A1-180E72F5506E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FEED95B-3D43-458A-87A1-180E72F5506E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCF87696-E440-4E0C-B3A2-6C5B1266ED89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCF87696-E440-4E0C-B3A2-6C5B1266ED89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCF87696-E440-4E0C-B3A2-6C5B1266ED89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCF87696-E440-4E0C-B3A2-6C5B1266ED89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{252F7EE9-2FEE-4352-A92F-4F0667A97702}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{252F7EE9-2FEE-4352-A92F-4F0667A97702}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{252F7EE9-2FEE-4352-A92F-4F0667A97702}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{252F7EE9-2FEE-4352-A92F-4F0667A97702}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B4DAAF6-B868-4337-B369-FAE3D4690F49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B4DAAF6-B868-4337-B369-FAE3D4690F49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B4DAAF6-B868-4337-B369-FAE3D4690F49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B4DAAF6-B868-4337-B369-FAE3D4690F49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D0FBCBE-3CE2-419E-9F32-0D7423A77681}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D0FBCBE-3CE2-419E-9F32-0D7423A77681}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D0FBCBE-3CE2-419E-9F32-0D7423A77681}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D0FBCBE-3CE2-419E-9F32-0D7423A77681}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47C23A57-8F5E-4867-AAA3-F9AA0BA95306}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47C23A57-8F5E-4867-AAA3-F9AA0BA95306}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47C23A57-8F5E-4867-AAA3-F9AA0BA95306}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47C23A57-8F5E-4867-AAA3-F9AA0BA95306}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF34F076-F95C-4B42-8E85-D5ACB57CD4F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF34F076-F95C-4B42-8E85-D5ACB57CD4F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF34F076-F95C-4B42-8E85-D5ACB57CD4F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF34F076-F95C-4B42-8E85-D5ACB57CD4F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{407FB05E-BE6A-4ACE-AAB9-C406E925AAC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{407FB05E-BE6A-4ACE-AAB9-C406E925AAC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{407FB05E-BE6A-4ACE-AAB9-C406E925AAC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{407FB05E-BE6A-4ACE-AAB9-C406E925AAC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F7EF9E0-2A3B-4C2E-A901-CBB2B83F6F82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F7EF9E0-2A3B-4C2E-A901-CBB2B83F6F82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F7EF9E0-2A3B-4C2E-A901-CBB2B83F6F82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F7EF9E0-2A3B-4C2E-A901-CBB2B83F6F82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{080909D8-76EC-4BEE-9876-1BD81EAB0876}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{080909D8-76EC-4BEE-9876-1BD81EAB0876}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{080909D8-76EC-4BEE-9876-1BD81EAB0876}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{080909D8-76EC-4BEE-9876-1BD81EAB0876}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B86CA9B0-E01B-4FD3-A6AB-4350FE1BFC37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B86CA9B0-E01B-4FD3-A6AB-4350FE1BFC37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B86CA9B0-E01B-4FD3-A6AB-4350FE1BFC37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B86CA9B0-E01B-4FD3-A6AB-4350FE1BFC37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04126B15-952E-4F90-9DB6-DC38AB7B44F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04126B15-952E-4F90-9DB6-DC38AB7B44F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04126B15-952E-4F90-9DB6-DC38AB7B44F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04126B15-952E-4F90-9DB6-DC38AB7B44F3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{906B822E-F701-4F82-B262-17EFD5DAC229} = {CC95540C-F9BD-41EE-B11C-9C7260EE9A4D}
+		{A71D4011-26DB-4FCB-B5A0-81EE179284E3} = {CC95540C-F9BD-41EE-B11C-9C7260EE9A4D}
+		{4865E05C-1EF8-4021-8D5F-35098CE2620A} = {CC95540C-F9BD-41EE-B11C-9C7260EE9A4D}
+		{E0FC764B-E193-413E-973A-9FE5FD057BF9} = {CC95540C-F9BD-41EE-B11C-9C7260EE9A4D}
+		{B3A8302A-1642-4E16-8B79-90B4232F6E23} = {CC95540C-F9BD-41EE-B11C-9C7260EE9A4D}
+		{4D71D5E4-AD55-49E0-B453-3E7C65EDC0F9} = {A71D4011-26DB-4FCB-B5A0-81EE179284E3}
+		{D9CB8E4D-82F4-42B7-971C-61CE8BDFC338} = {A71D4011-26DB-4FCB-B5A0-81EE179284E3}
+		{8FEED95B-3D43-458A-87A1-180E72F5506E} = {B3A8302A-1642-4E16-8B79-90B4232F6E23}
+		{FCF87696-E440-4E0C-B3A2-6C5B1266ED89} = {B3A8302A-1642-4E16-8B79-90B4232F6E23}
+		{252F7EE9-2FEE-4352-A92F-4F0667A97702} = {E0FC764B-E193-413E-973A-9FE5FD057BF9}
+		{6B4DAAF6-B868-4337-B369-FAE3D4690F49} = {A71D4011-26DB-4FCB-B5A0-81EE179284E3}
+		{6D0FBCBE-3CE2-419E-9F32-0D7423A77681} = {4865E05C-1EF8-4021-8D5F-35098CE2620A}
+		{47C23A57-8F5E-4867-AAA3-F9AA0BA95306} = {4865E05C-1EF8-4021-8D5F-35098CE2620A}
+		{FF34F076-F95C-4B42-8E85-D5ACB57CD4F5} = {E0FC764B-E193-413E-973A-9FE5FD057BF9}
+		{407FB05E-BE6A-4ACE-AAB9-C406E925AAC1} = {B3A8302A-1642-4E16-8B79-90B4232F6E23}
+		{3F7EF9E0-2A3B-4C2E-A901-CBB2B83F6F82} = {4865E05C-1EF8-4021-8D5F-35098CE2620A}
+		{080909D8-76EC-4BEE-9876-1BD81EAB0876} = {906B822E-F701-4F82-B262-17EFD5DAC229}
+		{B86CA9B0-E01B-4FD3-A6AB-4350FE1BFC37} = {B3A8302A-1642-4E16-8B79-90B4232F6E23}
+		{04126B15-952E-4F90-9DB6-DC38AB7B44F3} = {E0FC764B-E193-413E-973A-9FE5FD057BF9}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A0F976CB-B56E-4524-B3B6-1008326C7060}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 15
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://dev.azure.com/dev-center
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = ParkEFI.Application.Adapters\\ParkEFI.Application.Adapters.csproj
+		SccProjectTopLevelParentUniqueName1 = ParkEFI\u0020APIs.sln
+		SccProjectName1 = ParkEFI.Application.Adapters
+		SccLocalPath1 = ParkEFI.Application.Adapters
+		SccProjectUniqueName2 = ParkEFI.Application.Contracts\\ParkEFI.Application.Contracts.csproj
+		SccProjectTopLevelParentUniqueName2 = ParkEFI\u0020APIs.sln
+		SccProjectName2 = ParkEFI.Application.Contracts
+		SccLocalPath2 = ParkEFI.Application.Contracts
+		SccProjectUniqueName3 = ParkEFI.Application.Ioc\\ParkEFI.Application.Ioc.csproj
+		SccProjectTopLevelParentUniqueName3 = ParkEFI\u0020APIs.sln
+		SccProjectName3 = ParkEFI.Application.Ioc
+		SccLocalPath3 = ParkEFI.Application.Ioc
+		SccProjectUniqueName4 = ParkEFI.Application.Services\\ParkEFI.Application.Services.csproj
+		SccProjectTopLevelParentUniqueName4 = ParkEFI\u0020APIs.sln
+		SccProjectName4 = ParkEFI.Application.Services
+		SccLocalPath4 = ParkEFI.Application.Services
+		SccProjectUniqueName5 = ParkEFI.Crosscutting.Identity\\ParkEFI.Crosscutting.Identity.csproj
+		SccProjectTopLevelParentUniqueName5 = ParkEFI\u0020APIs.sln
+		SccProjectName5 = ParkEFI.Crosscutting.Identity
+		SccLocalPath5 = ParkEFI.Crosscutting.Identity
+		SccProjectUniqueName6 = ParkEFI.Crosscutting.Utils\\ParkEFI.Crosscutting.Utils.csproj
+		SccProjectTopLevelParentUniqueName6 = ParkEFI\u0020APIs.sln
+		SccProjectName6 = ParkEFI.Crosscutting.Utils
+		SccLocalPath6 = ParkEFI.Crosscutting.Utils
+		SccProjectUniqueName7 = ParkEFI.Domain.Contracts\\ParkEFI.Domain.Contracts.csproj
+		SccProjectTopLevelParentUniqueName7 = ParkEFI\u0020APIs.sln
+		SccProjectName7 = ParkEFI.Domain.Contracts
+		SccLocalPath7 = ParkEFI.Domain.Contracts
+		SccProjectUniqueName8 = ParkEFI.Domain.Entities\\ParkEFI.Domain.Entities.csproj
+		SccProjectTopLevelParentUniqueName8 = ParkEFI\u0020APIs.sln
+		SccProjectName8 = ParkEFI.Domain.Entities
+		SccLocalPath8 = ParkEFI.Domain.Entities
+		SccProjectUniqueName9 = ParkEFI.Domain.Services\\ParkEFI.Domain.Services.csproj
+		SccProjectTopLevelParentUniqueName9 = ParkEFI\u0020APIs.sln
+		SccProjectName9 = ParkEFI.Domain.Services
+		SccLocalPath9 = ParkEFI.Domain.Services
+		SccProjectUniqueName10 = ParkEFI.Infrastructure.Ioc\\ParkEFI.Infrastructure.Ioc.csproj
+		SccProjectTopLevelParentUniqueName10 = ParkEFI\u0020APIs.sln
+		SccProjectName10 = ParkEFI.Infrastructure.Ioc
+		SccLocalPath10 = ParkEFI.Infrastructure.Ioc
+		SccProjectUniqueName11 = ParkEFI.Infrastructure.Repositories\\ParkEFI.Infrastructure.Repositories.csproj
+		SccProjectTopLevelParentUniqueName11 = ParkEFI\u0020APIs.sln
+		SccProjectName11 = ParkEFI.Infrastructure.Repositories
+		SccLocalPath11 = ParkEFI.Infrastructure.Repositories
+		SccProjectUniqueName12 = ParkEFI.Infrastructure\\ParkEFI.Infrastructure.csproj
+		SccProjectTopLevelParentUniqueName12 = ParkEFI\u0020APIs.sln
+		SccProjectName12 = ParkEFI.Infrastructure
+		SccLocalPath12 = ParkEFI.Infrastructure
+		SccProjectUniqueName13 = ParkEFI.UI.RESTful\\ParkEFI.UI.RESTful.csproj
+		SccProjectTopLevelParentUniqueName13 = ParkEFI\u0020APIs.sln
+		SccProjectName13 = ParkEFI.UI.RESTful
+		SccLocalPath13 = ParkEFI.UI.RESTful
+		SccProjectUniqueName14 = ParkEFI.Crosscutting.Resources\\ParkEFI.Crosscutting.Resources.csproj
+		SccProjectTopLevelParentUniqueName14 = ParkEFI\u0020APIs.sln
+		SccProjectName14 = ParkEFI.Crosscutting.Resources
+		SccLocalPath14 = ParkEFI.Crosscutting.Resources
+	EndGlobalSection
+EndGlobal

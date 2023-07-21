@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup Label="Globals">
+    <SccProjectName>SAK</SccProjectName>
+    <SccProvider>SAK</SccProvider>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ParkEFI.Crosscutting.Utils\ParkEFI.Crosscutting.Utils.csproj" />
+    <ProjectReference Include="..\ParkEFI.Domain.Contracts\ParkEFI.Domain.Contracts.csproj" />
+    <ProjectReference Include="..\ParkEFI.Domain.Entities\ParkEFI.Domain.Entities.csproj" />
+    <ProjectReference Include="..\ParkEFI.Infrastructure\ParkEFI.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
